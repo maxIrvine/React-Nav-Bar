@@ -4,10 +4,11 @@ import NavLogo from './NavLogo.js';
 import NavItem from './NavItem.js';
 import NavDropdown from './NavDropdown.js';
 import MenuItem from './MenuItem.js';
+import NavCollapse from './NavCollapse.js';
 
-Nav = () => {
+const Nav = (
     <div className="nav">
-        <NavLogo className="navLogo" image="./logo.svg"/>
+        <NavLogo image="./logo.svg"/>
         <NavCollapse>
             <NavItem link="#" title="Link 1"/>
             <NavItem link="#" title="Link 2"/>
@@ -18,6 +19,6 @@ Nav = () => {
             </NavDropdown>
         </NavCollapse>
     </div>
-}
+);
 
 export default Nav;

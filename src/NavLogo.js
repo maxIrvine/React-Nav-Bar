@@ -1,7 +1,7 @@
 import React from 'react';
 
-NavLogo = ({image}) => {
+NavLogo = ({image}) => (
     <img src={ image }/>
-}
+);
 
 export default NavLogo

@@ -1,7 +1,7 @@
 import React from 'react';
 
-NavDropdown = ({link}) => {
+NavDropdown = ({link, title}) => (
     <a href={ link }>{ title }</a>
-}
+);
 
 export default NavDropdown
